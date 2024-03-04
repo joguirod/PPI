@@ -1,0 +1,4 @@
+Axios -> cliente http baseado em promises(promessas)
+
+Promise -> requisição ao servidor, entra em estado pendente e quando é concluída,
+recebe um retorno que pode ser positivo ou negativo
