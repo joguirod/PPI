@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('minecraft_font.ttf') format('ttf'), /* Formato WOFF 2.0 */
+    /* Adicione outros formatos, como .ttf ou .otf, se necessário */
+}
+
+body {
+    margin: 0;
+    font-family: 'Minecraft';
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(161, 160, 160);
+}
+
+article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: lightgray;
+}
+
+
+h2 {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+}
+
+#guia {
+    color: rgb(97, 54, 14);
+}
+
+#cabecalho {
+    background-color: #000000;
+    color: white;
+}
+
+#cabecalho {
+    text-align: center;
+    padding: 70px;
+}
+
+#rodape p {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 11px;
+    margin-right: 50px;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}   
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#cabecalho h1 {
+    margin : 0;
+    font-size: 4rem;
+}
+
+#cabecalho {
+    background-image: url('images/grass-block.png'); /* Substitua 'caminho/da/sua/imagem.jpg' pelo caminho da sua imagem */
+    background-size: contain; /* Faz a imagem cobrir todo o cabeçalho */
+    background-position: top; /* Posiciona a imagem no centro do cabeçalho */
+    height: 100px; /* Defina a altura do cabeçalho conforme necessário */
+    color: white; /* Define a cor do texto no cabeçalho */
+    text-align: center; /* Alinha o texto ao centro do cabeçalho */
+    padding-top: 50px; /* Adiciona um espaçamento superior para o texto */
+}
