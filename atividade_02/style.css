@@ -53,6 +53,22 @@ main {
     margin: 0;
 }
 
+#guide_links ul li{
+    display: block;
+    color: black;
+    text-align: left;
+}
+
+#guide_links a:link, #guide_links a:visited {
+    color: rgb(211, 149, 98);
+    text-decoration: none;
+}
+
+#guide_links a:hover {
+    color: rgb(97, 54, 14);
+    text-decoration: underline;
+}
+
 nav li {
     display: inline-block;
     margin-top: 11px;
