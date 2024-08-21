@@ -1,0 +1,8 @@
+.oculto {
+    display: none;
+}
+
+#mensagemErro, #mensagemErro2, #mensagemErroVisu, #mensagemErroInt {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload</title>
+        <script src="script.js" defer></script> <!-- Certifique-se de usar "defer" -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="entrada" id="entradaArquivo">
+            <label class="label-bordered" for="uploadImagem">Enviar imagem</label>
+            <input type="file" id="uploadImagem" accept="image/*" style="display: none;">
+        </div>
+        <div id="imagensSelecionadas">
+            <ul id="listaImagens">
+                <span id="mensagemAviso">Nenhuma imagem enviada</span>
+            </ul>
+            <button class="oculto" id="btnExpandir">Expandir</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+.oculto {
+    display: none !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #141415;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: rgb(0, 67, 250);
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: rgb(87, 129, 245);
+}
+
+select {
+    margin-top: 10px;
+    width: 238px;
+    height: 87px;
+}
+
+#mensagemErro {
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+}
+
+#ativos, #carteira {
+    display: flex;
+    flex-direction: column; /* Coloca o label acima do select */
+    align-items: center;
+}
